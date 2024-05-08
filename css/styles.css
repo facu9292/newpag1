@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/fondoPagina.jpg);
+    width: auto;
+    height: auto;
+}
+
+.titulo {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.descripcion {
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+}
+
+
+.ofertas {
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.search-form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+}
+
+.search-form button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #45a049;
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px 20;
+    bottom: 10;
+    width: 100%;
+}
+
+.image-group {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.image-container {
+    text-align: center;
+
+    .textooferta1 {
+        color: white;
+    }
+
+    .textooferta2 {
+        color: white;
+    }
+
+    .textooferta3 {
+        color: white;
+    }
+
+    .textooferta4 {
+        color: white;
+    }
+
+    .preciooferta1 {
+        color: white;
+    }
+
+    .preciooferta2 {
+        color: white;
+    }
+
+    .preciooferta3 {
+        color: white;
+    }
+
+    .preciooferta4 {
+        color: white;
+    }
+
+}
+
+.image-container img {
+    max-width: 280px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
