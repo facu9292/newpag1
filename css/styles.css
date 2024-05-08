@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
-    background-image: url(img/fondoPagina.jpg);
+    background-image: url(../img/fondoPagina.jpg);
     width: auto;
     height: auto;
 }
